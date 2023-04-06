@@ -22,7 +22,7 @@ body {
 
 #agrupar {
     width: 960px;
-    margin: 15px;
+    margin: 15px auto;
     text-align: left;
 }
 
@@ -30,6 +30,7 @@ body {
     background: #FFFBB9;
     border: 1px solid #999999;
     padding: 20px;
+    margin-left: 40px;
 }
 
 #menu {
@@ -42,4 +43,26 @@ body {
     display: inline-block;
     font: bold 14px verdana, sans-serif;
     padding: 5px;
+}
+
+#seccion {
+    background: #FFFBB9;
+    border: 1px solid #999999;
+    padding: 20px;
+
+    margin-block: 20px;
+    margin-right: 330px;
+    margin-left: 40px;
+    
+}
+
+#columna {
+    background: #999999;
+    margin-left: 660px;
+    padding: 20px;
+    border: 1px solid #999999;
+}
+
+hgroup {
+    
 }
