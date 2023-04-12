@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos del contenido principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos de los productos */
+
+.encabezado {
+    background-color: #838383;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.encabezado h1 {
+    font-size: 36px;
+    margin-top: 0;
+    color: #ff5757;
+}
+
+.encabezado p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.producto img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.producto h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.producto p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.producto .precio {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.producto button {
+    background-color: #34b851;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
